@@ -1,7 +1,7 @@
 # 📅 Hoje na História
 
 ## Descrição
-Este projeto é um WebApp de fatos históricos desenvolvido como atividade da disciplina de Desenvolvimento Web, do curso de Análise e Desenvolvimento de Sistemas. A aplicação permite buscar e exibir fatos históricos sobre qualquer data, utilizando a API pública da Wikipedia. Os usuários podem pesquisar eventos históricos por data específica, descobrir curiosidades sobre datas aleatórias e manter um histórico das buscas realizadas.
+Este projeto é um WebApp de fatos históricos desenvolvido como atividade da disciplina de Coding Mobile, do curso de Análise e Desenvolvimento de Sistemas. A aplicação permite buscar e exibir fatos históricos sobre qualquer data, utilizando a API pública da Wikipedia. Os usuários podem pesquisar eventos históricos por data específica, descobrir curiosidades sobre datas aleatórias e manter um histórico das buscas realizadas.
 
 ## Funcionalidades
 - **Busca por Data**: Pesquise fatos históricos por data no formato DD/MM
