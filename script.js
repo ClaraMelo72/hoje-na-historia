@@ -1,4 +1,3 @@
-// Elementos do DOM
 const dateInput = document.getElementById('date-input');
 const discoverBtn = document.getElementById('discover-btn');
 const surpriseBtn = document.getElementById('surprise-btn');
@@ -8,7 +7,6 @@ const historyContainer = document.getElementById('history-container');
 // Histórico de buscas
 let searchHistory = JSON.parse(localStorage.getItem('history')) || [];
 
-// Atualizar histórico na tela
 function updateHistoryDisplay() {
     if (searchHistory.length === 0) {
         historyContainer.innerHTML = '<p class="no-history">Nenhuma busca realizada ainda</p>';
@@ -72,7 +70,6 @@ async function fetchHistoricalFact(date) {
     }
 }
 
-// Fatos de fallback - agora mais precisos
 function getFallbackFact(date) {
     const [day, month] = date.split('/').map(Number);
     const monthNames = [
