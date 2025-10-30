@@ -33,8 +33,7 @@ https://claramelo72.github.io/hoje-na-historia/
 1. **Clone o repositório** ou faça o download dos arquivos
 2. **Hospede localmente**:
    - Use um servidor local (ex.: Live Server no VS Code)
-   - Ou execute: `python -m http.server 8000` (requer Python)
-   - Alternativamente, abra o arquivo `index.html` diretamente no navegador
+
 3. **Interaja com a aplicação**:
    - Digite uma data no formato DD/MM (ex: 07/09)
    - Clique em "Descobrir Curiosidade!" ou pressione Enter
