@@ -229,13 +229,12 @@ footer {
     to { transform: rotate(360deg); }
 }
 
-/* Estilo para fatos longos */
+
 .fact-display {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
-/* Melhorar scroll do histórico */
 .history-container::-webkit-scrollbar {
     width: 6px;
 }
