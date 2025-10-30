@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoje na História</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hoje na História</h1>
+            <p class="subtitle">Descubra fatos interessantes sobre qualquer data!</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Portal da Data</h2>
+                </div>
+                <div class="card-body">
+                    <div class="input-group">
+                        <label for="date-input">Digite uma data... (ex.: 25/12)</label>
+                        <input type="text" id="date-input" placeholder="DD/MM">
+                        <button id="discover-btn">Descobrir Curiosidade!</button>
+                    </div>
+                    
+                    <div class="fact-container">
+                        <div id="fact-display" class="fact-display">
+                            <p>Escolha uma data e descubra algo surpreendente!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="actions">
+                        <button id="surprise-btn" class="surprise-btn">Me surpreenda!</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h2>Histórico Recente</h2>
+                </div>
+                <div class="card-body">
+                    <div id="history-container" class="history-container">
+                        <p class="no-history">Nenhuma busca realizada ainda</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Powered by Numbers API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
