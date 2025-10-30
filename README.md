@@ -20,15 +20,14 @@ Este projeto é um WebApp de fatos históricos desenvolvido como atividade da di
 
 ## Estrutura do Projeto
 
-/Hoje-na-Historia
-│
-├── index.html # Estrutura principal da interface
-├── style.css # Estilização completa e responsiva
-├── script.js # Lógica de interação e integração com a API
-└── README.md # Documentação do projeto
+`Hoje-na-Historia/`  
+├── `index.html` - Estrutura principal da interface  
+├── `style.css` - Estilização completa e responsiva  
+├── `script.js` - Lógica de interação e integração com a API  
+└── `README.md` - Documentação do projeto
 
 ## Deploy Online
-*[Link do Netlify será adicionado após o deploy]*
+https://claramelo72.github.io/hoje-na-historia/
 
 ## Como Executar Localmente
 1. **Clone o repositório** ou faça o download dos arquivos
